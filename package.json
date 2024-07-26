@@ -1,0 +1,28 @@
+{
+  "name": "@bilaljutt123/curr-converters",
+  "version": "1.0.1",
+  "description": "A CLI based Currency Converter using typescript and published as an executable npm package",
+  "main": "./dist/index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "bin": "./dist/index.js",
+  "keywords": [],
+  "author": "Muhammad Bilal Hussain",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.2.20"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/chalk-animation": "^1.6.3",
+    "@types/inquirer": "^9.0.7"
+  }
+}
